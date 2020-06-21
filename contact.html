@@ -1,25 +1,3 @@
-<?
-if ($_POST['lettersubmit']) {
-	if (!validateEmail($_POST['email'])) {
-		$status = "Error sending. Please provide a valid email address.";
-	}
-	else {
-		mail("aaron@aaronhardy.com", "Mail from aaronhardy.com", "Name:\n" 
-			. stripslashes($_POST['name']) . "\n\n" 
-			. "Email Address:\n" . stripslashes($_POST['email']) 
-			. "\n\nMessage:\n" . stripslashes($_POST['message']),
-		     "From: " . $_POST['name'] . "\n"
-		    ."Reply-To: " . $_POST['email'] . "\n"
-		    ."X-Mailer: PHP/" . phpversion());
-			$status = "Thank you. Your message has been sent.";
-			unset($_POST['name']);
-			unset($_POST['email']);
-			unset($_POST['message']);
-	}
-}
-?>
-
-
 <html>
 <head>
 	<title>:: AARONHARDY.COM :: CONTACT ME</title>
@@ -33,15 +11,15 @@ if ($_POST['lettersubmit']) {
 <table cellpadding="0" cellspacing="8" align="center" valign="top">
 	<tr>
 		<td class="contact">Name:</td>
-		<td><input type="text" name="name" tabindex="2" class="input" value="<?=$_POST['name']?>"></td>
+		<td><input type="text" name="name" tabindex="2" class="input"></td>
 	</tr>
 	<tr>
 		<td class="contact">Email:</td>
-		<td><input type="text" name="email" tabindex="3" class="input" value="<?=$_POST['email']?>"></td>
+		<td><input type="text" name="email" tabindex="3" class="input"></td>
 	</tr>
 	<tr>
 		<td valign="top" class="contact">Message:</td>
-		<td><textarea name="message" class="textarea" tabindex="5"><?=$_POST['message']?></textarea></td>
+		<td><textarea name="message" class="textarea" tabindex="5"></textarea></td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
@@ -49,14 +27,7 @@ if ($_POST['lettersubmit']) {
 	</tr>
 	<tr>
 		<td valign="top" class="contact">Status:</td>
-		<td class="status">
-		<? 
-		if ($status) {
-			echo $status;
-		}
-		else {
-			echo "Ready...";
-		}?></td>
+		<td class="status">Ready...</td>
 	</tr>
 </table>
 </div>
