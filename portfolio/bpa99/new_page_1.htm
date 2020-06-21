@@ -1,0 +1,128 @@
+<html>
+
+<head>
+<title>New Page 1</title>
+<script language="JavaScript">
+<!--
+
+if (document.images) {
+  image1on = new Image();
+  image1on.src = "3on.gif";
+
+  image2on = new Image();
+  image2on.src = "5on.gif";
+
+  image3on = new Image();
+  image3on.src = "7on.gif";
+
+  image4on = new Image();
+  image4on.src = "9on.gif";
+
+  image5on = new Image();
+  image5on.src = "10on.gif";
+
+  image6on = new Image();
+  image6on.src = "12on.gif";
+
+  image7on = new Image();
+  image7on.src = "14on.gif";
+
+  image8on = new Image();
+  image8on.src = "16on.gif";
+
+  image9on = new Image();
+  image9on.src = "19on.gif";
+
+  image1off = new Image();
+  image1off.src = "3.gif";
+
+  image2off = new Image();
+  image2off.src = "5.gif";
+
+  image3off = new Image();
+  image3off.src = "7.gif";
+
+  image4off = new Image();
+  image4off.src = "9.gif";
+
+  image5off = new Image();
+  image5off.src = "10.gif";
+
+  image6off = new Image();
+  image6off.src = "12.gif";
+
+  image7off = new Image();
+  image7off.src = "14.gif";
+
+  image8off = new Image();
+  image8off.src = "16.gif";
+
+  image9off = new Image();
+  image9off.src = "19.gif";
+
+}
+
+function changeImages() {
+  if (document.images) {
+    for (var i=0; i<changeImages.arguments.length; i+=2) {
+      document[changeImages.arguments[i]].src = eval(changeImages.arguments[i+1] + ".src");
+    }
+  }
+}
+
+// -->
+</script>
+</head>
+
+<body bgcolor="#000000">
+
+<p align="center"><img src="logo.gif" alt="logo.gif (11032 bytes)" WIDTH="532" HEIGHT="44"><br>
+<img src="bar.jpg" alt="bar.jpg (907 bytes)" WIDTH="399" HEIGHT="8"></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table width="201" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="201"><a href="meetings.htm" onMouseOver="changeImages('image1', 'image1on')" onMouseOut="changeImages('image1', 'image1off')"><img name="image1" src="3.gif" alt="Meetings" border="0" WIDTH="195" HEIGHT="21"></a></td>
+  </tr>
+  <tr>
+    <td width="201"><a href="service.htm" onMouseOver="changeImages('image2', 'image2on')" onMouseOut="changeImages('image2', 'image2off')"><img name="image2" src="5.gif" alt="Civic Service" border="0" WIDTH="161" HEIGHT="26"></a></td>
+  </tr>
+  <tr>
+    <td width="201"><a href="social.htm" onMouseOver="changeImages('image3', 'image3on')" onMouseOut="changeImages('image3', 'image3off')"><img name="image3" src="7.gif" alt="Social Activities" border="0" WIDTH="138" HEIGHT="30"></a></td>
+  </tr>
+  <tr>
+    <td width="201"><a href="finance.htm" onMouseOver="changeImages('image4', 'image4on')" onMouseOut="changeImages('image4', 'image4off')"><img name="image4" src="9.gif" alt="Fund-raising" border="0" WIDTH="128" HEIGHT="31"></a></td>
+  </tr>
+  <tr>
+    <td width="201"><a href="bpa.htm" onMouseOver="changeImages('image5', 'image5on')" onMouseOut="changeImages('image5', 'image5off')"><img name="image5" src="10.gif" alt="About BPA" border="0" WIDTH="144" HEIGHT="27"></a></td>
+  </tr>
+  <tr>
+    <td width="201"><a href="officers.htm" onMouseOver="changeImages('image6', 'image6on')" onMouseOut="changeImages('image6', 'image6off')"><img name="image6" src="12.gif" alt="BPA Officers" border="0" WIDTH="152" HEIGHT="23"></a></td>
+  </tr>
+  <tr>
+    <td width="201"><a href="social.htm" onMouseOver="changeImages('image7', 'image7on')" onMouseOut="changeImages('image7', 'image7off')"><img name="image7" src="14.gif" alt="Social Activities" width="169" height="24" border="0"></a></td>
+  </tr>
+  <tr>
+    <td width="201"><a href="members.htm" onMouseOver="changeImages('image8', 'image8on')" onMouseOut="changeImages('image8', 'image8off')"><img name="image8" src="16.gif" alt="BPA Members" border="0" WIDTH="201" HEIGHT="24"></a></td>
+  </tr>
+  <tr>
+    <td width="201"><a href="competitions.htm" onMouseOver="changeImages('image9', 'image9on')" onMouseOut="changeImages('image9', 'image9off')"><img name="image9" src="19.gif" alt="Past Competitions" border="0" WIDTH="155" HEIGHT="56"></a></td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table border="4" width="400">
+  <tr>
+    <td><p align="center"><strong><font color="#D20404"><big>Oakley High School Chapter</big><br>
+    <big>Oakley, Idaho</big><br>
+    <big>-1999-</big></font></strong></td>
+  </tr>
+</table>
+</body>
+</html>

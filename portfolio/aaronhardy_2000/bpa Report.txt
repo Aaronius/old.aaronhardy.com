@@ -1,0 +1,180 @@
+Movie Report
+------------
+
+Frame #    Frame Bytes    Total Bytes    Page
+-------    -----------    -----------    ---------------
+    1         23773          23773        nav
+    2             2          23775          2
+    3         25822          49597          3
+    4            47          49644          4
+    5           225          49869          5
+    6             9          49878          6
+    7             9          49887          7
+    8             9          49896          8
+    9             9          49905          9
+   10            14          49919          10
+   11           418          50337          11
+   12            16          50353          12
+   13            16          50369          13
+   14            16          50385          14
+   15            16          50401          15
+   16            16          50417          16
+   17            16          50433          17
+   18            16          50449          18
+   19            16          50465          19
+   20            16          50481          20
+   21            18          50499          21
+   22          1114          51613          22
+   23            23          51636          23
+   24            23          51659          24
+   25            23          51682          25
+   26            23          51705          26
+   27            23          51728          27
+   28            23          51751          28
+   29            23          51774          29
+   30           526          52300          30
+   31          8367          60667          31
+   32            51          60718          32
+   33            51          60769          33
+   34            51          60820          34
+   35            51          60871          35
+   36          1140          62011          36
+   37            23          62034          37
+   38            23          62057          38
+   39            23          62080          39
+   40            23          62103          40
+   41            23          62126          41
+   42            23          62149          42
+   43            23          62172          43
+   44           244          62416          44
+   45           410          62826          45
+   46            16          62842          46
+   47            16          62858          47
+   48            16          62874          48
+   49            16          62890          49
+   50            16          62906          50
+   51            16          62922          51
+   52            16          62938          52
+   53            16          62954          53
+   54            16          62970          54
+   55           523          63493          55
+   56           308          63801          56
+   57             9          63810          57
+   58             9          63819          58
+   59             9          63828          59
+   60             9          63837          60
+   61            27          63864          61
+   62         14335          78199          62
+   63          9478          87677          63
+   64          7455          95132          64
+   65          4482          99614          65
+   66          7864         107478          66
+   67           235         107713          67
+
+Page                       Shape Bytes    Text Bytes
+-----------------------    -----------    ----------
+nav                            1849           205
+
+Symbol                     Shape Bytes    Text Bytes
+-----------------------    -----------    ----------
+tabbuttons                        0             0
+disabled                          0             0
+off                               0             0
+on                                0             0
+music                             0             0
+mute                              0             0
+musiclight                        0             0
+soundfx                           0             0
+invis_button                      0             0
+sounds                            0             0
+protrain image                    0             0
+end                             137            56
+Loading...                        0           592
+bar                              95             0
+placeholder                       0             0
+mask                              0             0
+Tween 2                           0             0
+loadermask                        0             0
+loader                            0             0
+Head                              0             0
+logo                              0             0
+Symbol 172                        0             0
+loading                           0             0
+back                             58            80
+backask                         217            71
+send                              0            74
+emailprotrain                     0             0
+visitprotrain                     0             0
+descriptionmovie               2012             0
+wrinklemovie                   1311             0
+askmovie                       1159             0
+portfoliomovie                  962             0
+resumemovie                    2292             0
+resumemovie copy                  0             0
+guestbookmovie                    0             0
+Tween 6                           0             0
+panel                         17751             0
+Tween 1                           0             0
+home                           3898             0
+sound                             0             0
+email                          3699             0
+scrolldown                      689             0
+scrollup                        443             0
+Tween 14 copy 3                   0             0
+description                       0          2318
+wrinkle                           0          2052
+ask                               0          1464
+portfolio                         0             0
+resume                          110          2360
+buttonswitch                      0             0
+buttonswitch copy                 0             0
+buttonswitchnull                  0             0
+wrinklebutton                  2253             0
+buttonnull                      656             0
+trans                           419             0
+pic_Screw                       239             0
+Check Highligh Button             0             0
+RadioButton                       0             0
+RadioButtionButton                0             0
+CyberButton                       0             0
+KitBall                           0             0
+CybercollegePC                    0             0
+Computer                          0             0
+firepulse_rotate                  0             0
+fire_firepulse                    0             0
+file_crosshair                    0             0
+fire_line                         0             0
+FlashkitButton                    0             0
+KitSign                           0             0
+MikroAn-Aus                       0             0
+MikroBut                          0             0
+MikroBall                         0             0
+Speaker                           0             0
+BlueSteel                         0             0
+Button2                           0             0
+Ball                              0             0
+CheckerLines                      0             0
+Blue                              0             0
+SchalterEintrag                   0             0
+EntryNavigator                    0             0
+PfeilGreen                        0             0
+Scroll Controller                 0             0
+SchalterSpec3                     0             0
+HoleAnim                          0             0
+Hole                              0             0
+Sphere Anim                       0             0
+sphere                            0             0
+BallAnim                          0             0
+Ende                              0             0
+RectangleBlue                     0             0
+LoaderMain                      388            45
+Slider Max                        0             0
+Slider Max copy                   0             0
+
+Tweened Shapes: 19396 bytes
+
+Font Name                  Bytes       Characters
+-----------------------    --------    -----------
+Folio Bk BT Bold             1803         &-.ABCDEFGHIJKLMNOPQRSTUVWXY
+Folio Bk BT                 21376         !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÄÅÇÉÑÖÜáàâäãåçéèêëíìîïñóòôöõúùûü†°¢£§•¶ß®©™´¨≠ÆØ∞±≤≥¥µ∂∑∏π∫ªºΩæø¿¡¬√ƒ≈∆«»… ÀÃÕŒœ–—“”‘’÷◊ÿŸ⁄€‹›ﬁﬂ‡·‚„‰ÂÊÁËÈÍÎÏÌÓÔÒÚÛÙıˆ˜¯˘˙˚¸˝˛ˇ
+Keypunch Bold                 654        .ADGILNO
